@@ -21,6 +21,11 @@ p {
     font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 li {
     list-style: none;
 }
@@ -65,7 +70,7 @@ li {
 }
 
 .text--purple {
-  color: #6030b1;
+  color: #268210;
 }
 
 /* NAVIGATION BAR */
@@ -93,7 +98,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #268210;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -101,13 +106,13 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #4e2590;
+    background-color: #196508;
 }
 
 .personal__logo {
     font-size: 24px;
     font-weight: 700;
-    color: #6030b1;
+    color: #268210;
     margin: 0 12px;
 }   
 
@@ -145,4 +150,29 @@ nav {
 .about-me__picture {
     width: 100%;
     height: auto;
+}
+
+.about-me__info--title {
+  margin-bottom: 16px;
+}
+
+.about-me__info--para {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.about-me__link {
+  font-size: 20px;
+  color: #242424;
+  padding: 0 16px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
 }
